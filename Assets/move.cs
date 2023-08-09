@@ -64,7 +64,6 @@ public class move : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        //Only for Sonic scene
         if (SceneManager.GetActiveScene().name == "Example 1")
         {
             animator.SetBool("isJumping", true);

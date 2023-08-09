@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8038744535896942474}
   - component: {fileID: 21141378066798044}
   - component: {fileID: 4358719869449403154}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy
   m_TagString: enemy
   m_Icon: {fileID: 0}
@@ -147,3 +147,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7
+  playerDead: {fileID: 9162767761875507080, guid: be2e2fa8f6908cc488e8f0bfd6d4e8e6, type: 3}
